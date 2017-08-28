@@ -1,0 +1,247 @@
+html {
+	box-sizing: border-box;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+
+body {
+	max-width: 768px;
+}
+
+/*about page styles*/
+.container {
+	width: 100%;
+	max-width: 768px;
+	clear: both;
+	margin: 0 auto;
+}
+
+
+#logo {
+	height: 90px;
+	width: 40%;
+	background-color: orange;
+}
+
+
+#HeaderLogo {
+	font-size: 28px;
+	line-height: 1.5em;
+}
+
+
+
+
+
+
+
+#MainNavagation {
+	height: 30px;
+	margin-top: 1.5em;
+	float: right;
+	width: 40%;
+	margin-left: 10%;
+}
+
+#MainNavagation a {
+font-size: 16px;
+width: 25%;
+line-height: 0em;
+}
+
+a:hover {
+	color: green;
+}
+
+
+#MainNavagation a:last-child {
+	margin-left: 3%;
+}
+
+#MainNavagation a:first-child {
+	margin-left: 6%;
+}
+
+
+#MainContent {
+	width: 94%;
+	margin: 4em auto;
+	margin-left: 2%;
+}
+
+
+
+#MainContent p {
+	padding-right: 1.5%;
+}
+
+#MainImg {
+	margin: 1em 0.5em 0 0;
+}
+
+#ConnectionLinks {
+	float: left;
+	max-width: 96%;
+
+}
+
+#ConnectionSpanTag {
+	text-align: left;
+}
+
+aside span {
+	border-bottom: 1px black solid;
+}
+
+.img {
+	margin: 0;
+}
+
+.img:first-child {
+	margin-left: 2%;
+  }
+  /*end of about page styles*/
+
+/*Portfolio img styles*/
+.pimg {
+	margin: 20%;
+	margin-bottom: 0;
+}
+
+.pimg:last-child {
+	margin-bottom: 3em;
+}
+
+
+/*End of Portfolio img styles*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 640px) {
+/*About page styles*/
+
+#logo {
+	float: right;
+	max-width: 640px;
+	height: 90px;
+	background-color: orange;
+	width: 100%;
+}
+
+
+
+#MainNavagation {
+	width: 95%;
+    margin-top: 1em;
+	float: right;
+
+}
+
+
+#MainContent {
+	margin-top: 0;
+	margin-top: 1.5em;
+}
+
+/*End of about page styles*/
+
+
+/*End of pimg styles*/
+
+.pimg {
+	margin: 13.5%;
+	margin-bottom: 0;
+	width: 75%;
+}
+
+.pimg:last-child {
+	margin-bottom: 3em;
+}
+
+/*End of pimg styles*/
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

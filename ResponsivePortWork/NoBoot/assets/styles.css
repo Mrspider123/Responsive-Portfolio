@@ -1,0 +1,218 @@
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+.flex {
+	width: 100%;
+}
+
+
+html {
+	box-sizing: border-box;
+}
+
+body {
+	border: 2px;
+	max-width: 960px;
+	font-family: 'Pacifico', cursive;
+	font-size: 24px;
+	background-image: url(../images/dark-triangles.png);
+	margin: 4em auto;
+	position: relative;
+}
+
+.container {
+	width: 100%;
+	max-width: 960px;
+	clear: both;
+	margin: 0 auto;
+}
+
+#logo {
+	width: 250px;
+	height: 90px;
+	float: left;
+	text-align: center;
+	background-color: orange;
+	color: red;
+	text-decoration: none;
+	margin-left: 2%;
+}
+
+#HeaderLogo {
+	margin-bottom: 1.5em;
+	clear: bottom;
+}
+
+
+#MainNavagation {
+	float: right;
+	width: 400px;
+	height: 90px;
+	margin-right: 2%;
+	background-color: orange;
+}
+
+nav a {
+	color: red;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	width: 31%;
+	line-height: 3.5em;
+	margin: 0 auto;
+}
+
+
+#MainContent {
+	float: left;
+	width: 48%;
+	margin-top: 4em;
+	margin-left: 2%;
+	margin-bottom: 6em;
+	padding: 1%;
+	background-color: orange;
+	overflow: hidden;
+    
+}
+
+#MainImg {
+	margin: 0.5em;
+	float: left;
+}
+
+span {
+	display: block;
+	border-bottom: black solid 1px;
+}
+
+
+
+
+#ConnectionLinks {
+	float: right;
+	background-color: orange;
+	max-width: 270px;
+	height: 90px;
+	width: 40%;
+	margin: 4em 2% 
+}
+
+
+#ConnectionSpanTag {
+	display: inline;
+	border-bottom: black solid 1px;
+	font-size: 16px;
+	text-align: center;
+}
+
+.img {
+	border: 3px solid white;
+	margin: 0em 8.4%;
+}
+
+
+
+
+footer {
+	height: 90px;
+	width: 100%;
+	background-color: orange;
+	text-align: center;
+	line-height: 1em; 
+	margin: 0 auto;
+	position: absolute;
+	bottom: 0;   
+	left: 0;       
+}
+
+
+
+
+
+
+
+
+
+/*portfolio styles*/
+
+
+
+
+.pimg {
+width: 380px;
+height: 380px;
+margin: 8%;
+}
+
+
+
+/*Contact styles*/ 
+
+#MainCotact {
+	width: 400px;
+	margin: 0 auto;
+}
+
+#contact-form ul {
+  margin-bottom: 20px;
+}
+
+#contact-form li {
+	margin-bottom: 10px;
+}
+
+
+
+label,
+input[type=text],
+input[type=email],
+textarea {
+  display: block;
+  width: 90%;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  height: 35px;
+  padding: 0 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+}
+
+
+input[type=submit] {
+  padding: 10px 30px;
+  font-size: 18px;
+  margin-left: 8.6%;
+  color: #fff;
+  cursor: pointer;
+  background: #4aaaa5;
+  border: 0 none;
+}
+
+
+textarea {
+	width: 230px;
+	height: 200px;
+}
+
+
+
+
+

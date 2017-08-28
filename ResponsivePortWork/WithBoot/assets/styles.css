@@ -1,0 +1,114 @@
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+#bottomBorder {
+	margin-top: 3em;
+	display: inline-block;
+	border-bottom: 1px solid black;
+	width: 100%;
+	margin-bottom: 3em;
+}
+
+#MainImg {
+	float: left;
+	width: 45%;
+	margin: 0 7px 7px 0;
+}
+
+
+
+#animation {
+	margin-top: 3em;
+	height: 90px;
+	width: 100;
+	background-color: orange;
+}
+
+footer {
+	text-align: center;
+	margin: 4em auto;
+	background-color: grey;
+}
+
+
+
+
+
+
+
+
+
+
+.IMG {
+	height: 100px;
+
+}
+
+
+
+
+
+
+
+
+#icon-holder {
+	height: 90px;
+	background-color: orange;
+	margin-top: 3em;
+}
+
+
+.icon {
+margin: 5% 0 0 0;
+border: 3px solid black;
+}
+
+
+
+
+
+
+
+
+
+#animation {
+  background-color: red;
+  animation-name: stretch;
+  animation-duration: 1.5s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+@keyframes stretch {
+  0% {
+    transform: scale(.3);
+    background-color: red;
+    border-radius: 100%;
+  }
+  50% {
+    background-color: orange;
+  }
+  100% {
+    transform: scale(1.5);
+    background-color: yellow;
+  }
+}
